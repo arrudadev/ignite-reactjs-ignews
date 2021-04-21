@@ -8,6 +8,8 @@ import { getPrismicClient } from "../../services/prismic";
 
 import styles from './post.module.scss';
 
+import { NextAuthSession } from "../../@types";
+
 interface PostProps {
   post: {
     slug: string;
@@ -39,7 +41,16 @@ export default function Post({ post }: PostProps) {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
-  const session = await getSession({ req });
+  const session = await getSession({ req }) as NextAuthSession;
+
+  if (!session.activeSubscription) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false
+      }
+    }
+  }
 
   const { slug } = params;
 
