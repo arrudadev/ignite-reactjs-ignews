@@ -8,11 +8,7 @@ import styles from './styles.module.scss';
 
 import { NextAuthSession } from '../../@types';
 
-interface SubscribeButtonProps {
-  priceId: string;
-}
-
-export function SubscribeButton({ priceId }: SubscribeButtonProps) {
+export function SubscribeButton() {
   const [session] = useSession() as [NextAuthSession, boolean];
 
   const router = useRouter();
