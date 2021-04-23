@@ -51,15 +51,19 @@ This project uses [FaunaDB](https://fauna.com/), [Stripe](https://stripe.com/), 
 
 ### FaunaDB Configuration
 
-See [FaunaDB Configuration docs](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/faunadb-configuration.md) to configure your FaunaDB and fill in your environment variables.
+See [FaunaDB Configuration documentation](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/faunadb-configuration.md) to configure your FaunaDB and fill in your environment variables.
 
 ### Stripe Configuration
 
-See [Stripe Configuration docs](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/stripe-configuration.md) to configure your Stripe and fill in your environment variables.
+See [Stripe Configuration documentation](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/stripe-configuration.md) to configure your Stripe and fill in your environment variables.
 
 ### Prismic Configuration
 
-See [Prismic Configuration docs](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/stripe-configuration.md) to configure your Prismic and fill in your environment variables.
+See [Prismic Configuration documentation](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/prismic-configuration.md) to configure your Prismic and fill in your environment variables.
+
+### Github's OAuth Configuration
+
+See [Github's OAuth Configuration documentation](https://github.com/monteiro-alexandre/ignite-reactjs-ignews/blob/master/docs/github-oauth-configuration.md) to configure your Github's OAuth and fill in your environment variables.
 
 # :runner: Getting Started
 

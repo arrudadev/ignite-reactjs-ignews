@@ -44,7 +44,13 @@ stripe listen --forward-to localhost:3000/api/webhooks
 
 In the output copy your secret access key of the webhook to STRIPE WEBHOOK SECRET environment variable
 
-For more information, see the Stripe documentation:
+Remembering these values ​​are sensitive and should only be in environment variables, so they should only be in .env.local, do not put your secret keys in the .env.development file.
+
+To see more about environment variables, see the NextJs documentation about environment variables:
+
+https://nextjs.org/docs/basic-features/environment-variables
+
+For more information about the Stripe, see the Stripe documentation:
 
 https://stripe.com/docs
 
