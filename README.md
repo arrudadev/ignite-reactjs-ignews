@@ -13,11 +13,24 @@ In this module, a subscription platform for text content was developed, using th
 
 # :pushpin: Table of Contents
 
+* [Technologies](#-technologies)
 * [Installation](#construction_worker-installation)
 * [Getting Started](#runner-getting-started)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
 * [License](#closed_book-license)
+
+## 💻 Technologies
+
+This project was developed with the following technologies:
+
+- [Typescript](https://www.typescriptlang.org/)
+- [React](https://reactjs.org)
+- [NextJs](https://nextjs.org/)
+- [FaunaDB](https://fauna.com/)
+- [Stripe](https://stripe.com/)
+- [Prismic](https://prismic.io/)
+- [NextAuth](https://next-auth.js.org/)
 
 # :construction_worker: Installation
 
